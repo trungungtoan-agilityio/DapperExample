@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/API.csproj": {}
+  },
+  "projects": {
+    "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/API.csproj",
+        "packagesPath": "/Users/trungu/.nuget/packages/",
+        "outputPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trungu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Infrastructure/Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0-rc.2.23480.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Application/Application.csproj",
+        "packagesPath": "/Users/trungu/.nuget/packages/",
+        "outputPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trungu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Core/Core.csproj": {
+                "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Core/Core.csproj",
+        "packagesPath": "/Users/trungu/.nuget/packages/",
+        "outputPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trungu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/trungu/.nuget/packages/",
+        "outputPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trungu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Application/Application.csproj": {
+                "projectPath": "/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

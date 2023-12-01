@@ -1,0 +1,6 @@
+/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache
+/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/Debug/net8.0/API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
+/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/Debug/net8.0/API.AssemblyInfo.cs
+/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
+/Users/trungu/Projects/Asoft/Dotnet-Practices/DapperExample/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
